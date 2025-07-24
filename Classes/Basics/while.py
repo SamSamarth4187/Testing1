@@ -1,4 +1,4 @@
-#loops --> do the repeated tasks 
+#loops --> do the repeated tasks again and again
 
 #while ---> infinite cases
 
@@ -27,3 +27,20 @@ while True:
     if count > a:
         break
 print('Done')
+
+#continue
+a = 10
+count = 0
+
+while True:
+    if count == 5:
+        count += 1
+        continue
+    print(count)
+    count += 1
+    if count > a:
+        break
+print('Done')
+
+
+
